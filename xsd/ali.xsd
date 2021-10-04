@@ -1,0 +1,28 @@
+<?xml-stylesheet href="xsd.xsl" type="text/xsl"?>
+<xs:schema xmlns="http://tempuri.org/JATS-archivearticle1_2d1-mathml3" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" elementFormDefault="qualified" targetNamespace="http://www.niso.org/schemas/ali/1.0/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:import namespace="http://tempuri.org/JATS-archivearticle1_2d1-mathml3" />
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+	<xs:element name="free_to_read">
+		<xs:complexType>
+			<xs:attribute ref="id" />
+			<xs:attribute ref="xml:base" />
+			<xs:attribute ref="content-type" />
+			<xs:attribute ref="specific-use" />
+			<xs:attribute ref="end_date" />
+			<xs:attribute ref="start_date" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="license_ref">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="id" />
+					<xs:attribute ref="xml:base" />
+					<xs:attribute ref="content-type" />
+					<xs:attribute ref="specific-use" />
+					<xs:attribute ref="start_date" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

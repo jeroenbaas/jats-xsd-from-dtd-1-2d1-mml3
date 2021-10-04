@@ -1,0 +1,9 @@
+<?xml-stylesheet href="xsd.xsl" type="text/xsl"?>
+<xs:schema xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="uri:mml" xmlns="http://tempuri.org/JATS-archivearticle1_2d1-mathml3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" elementFormDefault="qualified" targetNamespace="http://tempuri.org/JATS-archivearticle1_2d1-mathml3" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+	<xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="xlink.xsd" />
+	<xs:import namespace="uri:mml"  schemaLocation="mml.xsd"/>
+	<xs:import namespace="http://www.niso.org/schemas/ali/1.0/" schemaLocation="ali.xsd"/>
+	<xs:import namespace="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="xsi.xsd" />
+    <xs:include schemaLocation="JATS-archivearticle1_2d1-mathml3-elements.xsd"/>
+</xs:schema>
